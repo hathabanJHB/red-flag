@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
       title: 'Red-Flag',
       theme: ThemeData(
         //brightness: Brightness.light,
-        primarySwatch: Colors.grey,
+       // primarySwatch: Colors.grey,
         
       ),
-      initialRoute: '/intialPage',
+      initialRoute: '/loginPage',
       onGenerateRoute: Routing.route,
     );
   }
