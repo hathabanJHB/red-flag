@@ -1,8 +1,9 @@
-import 'dart:js';
+// import 'dart:js';
 
 import 'package:flutter/material.dart';
 import 'package:red_flag/pages/overview_page.dart';
 import 'package:red_flag/pages/registration_page.dart';
+import 'package:red_flag/pages/report_incident_report.dart';
 import 'package:red_flag/routing.dart';
 import 'package:red_flag/settings/myscreen.dart';
 
@@ -59,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
             padding: const EdgeInsets.only(top: 25.0, left: 100, right: 100),
             child: _forgotPasswordButton(context),
           ),
-           _space(),
+          _space(),
 
           Padding(
             padding: const EdgeInsets.only(top: 25.0, left: 100, right: 100),
@@ -144,7 +145,8 @@ _signupButton(context) {
     color: Colors.transparent,
     splashColor: Colors.black26,
     onPressed: () {
-      Navigator.push(context, MaterialPageRoute(builder: (_) => const RegistrationPage()));
+      Navigator.push(
+          context, MaterialPageRoute(builder: (_) => const RegistrationPage()));
     },
     child: const Text(
       'Signup',
@@ -158,7 +160,9 @@ _forgotPasswordButton(context) {
     color: Colors.transparent,
     splashColor: Colors.black26,
     onPressed: () {
-      Navigator.of(context).pushNamed("forgotPasswordPage");
+      Navigator.push(
+          context, MaterialPageRoute(builder: (_) => const ReportIncidentPage()));
+      // Navigator.of(context).pushNamed("forgotPasswordPage");
     },
     child: const Text(
       'Forgot Password',
