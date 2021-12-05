@@ -15,6 +15,7 @@ class ReportIncidentPage extends StatefulWidget {
 }
 
 class _ReportIncidentPageState extends State<ReportIncidentPage> {
+  bool chkValue = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,6 +45,33 @@ class _ReportIncidentPageState extends State<ReportIncidentPage> {
                   'Description Of Incedent',
                   style: TextStyle(color: Colors.deepPurple),
                 )),
+                RFPureButton(
+                    child: const Text(
+                  'Attach Images',
+                  style: TextStyle(color: Colors.deepPurple),
+                )),
+                RFPureButton(
+                    child: const Text(
+                  'Witness Contact Details',
+                  style: TextStyle(color: Colors.deepPurple),
+                )),
+                Row(
+                  children: [
+                    RFPureButton(
+                        child: const Text(
+                      'Contact The Police On My Behalf',
+                      style: TextStyle(color: Colors.deepPurple),
+                    )),
+                    Checkbox(
+                      value: chkValue,
+                      onChanged: (bool) {
+                        setState(() {
+                          this.chkValue = true;
+                        });
+                      },
+                    ),
+                  ],
+                ),
               ],
             ),
           )
