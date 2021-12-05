@@ -31,9 +31,13 @@ Understanding the concerns of women
 ![image](https://user-images.githubusercontent.com/55020016/144745771-f44f7956-f931-4025-b12a-c446071267c3.png)
 ![image](https://user-images.githubusercontent.com/55020016/144745778-e974e538-c41f-4143-bd9e-e3aedc9ca31c.png)
 ![image](https://user-images.githubusercontent.com/55020016/144745789-733c50b3-8340-49d6-99ec-2ae1c230fd26.png)
-
-
 ![image](https://user-images.githubusercontent.com/55020016/144745718-ad631422-8bb1-4e81-a820-558d017527cf.png)
+![image](https://user-images.githubusercontent.com/55020016/144745814-f62150c9-4906-4c99-9012-6e6458059fd4.png)
+![image](https://user-images.githubusercontent.com/55020016/144745819-70de9b56-e79e-4699-8698-17df21c8b181.png)
+![image](https://user-images.githubusercontent.com/55020016/144745827-be85835d-365c-4d92-aa09-fa16d839cdb2.png)
+![image](https://user-images.githubusercontent.com/55020016/144745830-0d0552c5-12be-46e6-8a47-f08d7afa8d60.png)
+
+
 
 
 
