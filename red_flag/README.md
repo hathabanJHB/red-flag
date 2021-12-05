@@ -1,16 +1,27 @@
 # red_flag
 
-A new Flutter project.
+The Problem
+  Women increasingly are victims of online abuse in the form of doxxing, cyberstalking and cyberbullying, for example. 
+  With that in mind, what tools can be offered to them to protect themselves against some of the threats online?
 
-## Getting Started
+Our Goal 
+  Equip Women 
+  Around the World 
+  With more tools to protect themselves online in  proactive, pre-emptive way.
 
-This project is a starting point for a Flutter application.
+Understanding the concerns of women
+  Cyber stalking
+    How can I avoid interacting with cyberstalkers?
+  Harassment
+    Protect me from harassment while networking online
+  Catfishing
+    Are the people I am chatting to really who they say they are’?
+ 
+ OUR SOLUTION
+  We care about keeping women safe online. With that in mind we offer:
+    An app that lets you vet and verify potential friends online
+    Conducts background as well as online tests against comprehensive databases.
+    Builds an online harassment profile of potential friend from various victims
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
