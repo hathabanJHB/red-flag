@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:red_flag/redflag_widgets/rf_sized_box.dart';
 import 'package:red_flag/settings/myscreen.dart';
 
 class NotificationsPage extends StatefulWidget {
@@ -11,7 +12,8 @@ class NotificationsPage extends StatefulWidget {
 class _NotificationsPageState extends State<NotificationsPage> {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return Scaffold(
+      body: RFSizedBox(),
+    );
   }
 }

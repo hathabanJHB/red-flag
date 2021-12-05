@@ -1,6 +1,7 @@
 // import 'dart:js';
 
 import 'package:flutter/material.dart';
+import 'package:red_flag/pages/notification.dart';
 import 'package:red_flag/pages/overview_page.dart';
 import 'package:red_flag/pages/registration_page.dart';
 import 'package:red_flag/pages/report_incident_report.dart';
@@ -131,7 +132,9 @@ _loginButton(context) {
           borderRadius: BorderRadius.circular(30),
         ))),
     onPressed: () {
-      Navigator.of(context).pushNamed("overViewPage");
+      Navigator.push(
+          context, MaterialPageRoute(builder: (_) => const  OverviewPage()));
+      // Navigator.of(context).pushNamed("forgotPasswordPage");
     },
     child: const Text(
       "Login",
@@ -161,7 +164,7 @@ _forgotPasswordButton(context) {
     splashColor: Colors.black26,
     onPressed: () {
       Navigator.push(
-          context, MaterialPageRoute(builder: (_) => const ReportIncidentPage()));
+          context, MaterialPageRoute(builder: (_) => const  OverviewPage()));
       // Navigator.of(context).pushNamed("forgotPasswordPage");
     },
     child: const Text(

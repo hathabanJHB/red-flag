@@ -78,7 +78,7 @@ class _ReportIncidentPageState extends State<ReportIncidentPage> {
         ],
       )),
       bottomNavigationBar: RFBottomNavBar(
-        selectedIndex: 2,
+        // selectedIndex: 2,
       ),
     );
   }

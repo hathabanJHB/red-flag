@@ -17,27 +17,31 @@ class _OverviewPageState extends State<OverviewPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('OverView'),
+        title: const Text('OverView'),
       ),
-      body:Container(
+      body:Center(
         child: Column(
           children: [
             PictureContainer(),
-            Text('OVERVIEW'),
-            Container(
-              child: Column(
-                children: [
-                  RFButton(text: const Text('My Contacts')),
-                  RFButton(text: const Text('Verify New Contact')),
-                  RFButton(text: const Text('Report an incident')),
-                  
-                ],
-              ),
+            const Text('OVERVIEW'),
+            Wrap(
+              spacing: 20,
+              //  alignment: WrapAlignment.center,
+               direction: Axis.vertical,
+               runSpacing: 20,
+              children: [
+                RFButton(text: const Text('My Contacts')),
+                RFButton(text: const Text('Verify New Contact')),
+                RFButton(text: const Text('Report an incident')),
+                
+              ],
             )
           ],
-        )
+        ),
       ),
-      bottomNavigationBar: RFBottomNavBar(selectedIndex: 2,),
+      bottomNavigationBar: const RFBottomNavBar(
+        selectedIndex: 2,
+        ),
     );
   }
 }
